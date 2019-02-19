@@ -1,0 +1,26 @@
+#tools{
+    margin: 0px auto;
+}
+
+#picker{
+    display:inline-block;
+    margin: 10px;
+}
+
+.toolItem{
+    display:inline-block;
+    margin: 10px;
+    width: 10vmin;
+    height: 16vmin;
+}
+
+.matrixCell{
+    width: 7vmin;
+    height: 7vmin;
+}
+
+.colorPickerCell{
+    width: 5vmin;
+    height: 5vmin;
+}
+

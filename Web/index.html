@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/websocket.js"></script>
+    <script type="text/javascript" src="js/json.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <title>LEDTABLE Controller</title>
+</head>
+
+<body onmouseup="tableUp(this)" , onmousemove="tableOver(this)">
+    <center>
+        <div id="modeChanger" onclick="modeChange()"></div>
+        <div id="matrix"></div>
+        <br>
+        <div id="tools">
+            <a id="picker"></a>
+            <a id="colorIndicator" class="toolItem"></a>
+            <a><img class="toolItem" id="pen" onclick="pen()" src="img/pen.png"></a>
+            <a><img class="toolItem" id="eraser" onclick="eraser()" src="img/eraser.png"></a>
+        </div>
+    </center>
+</body>
+
+</html>
